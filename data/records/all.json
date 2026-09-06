@@ -2,13 +2,13 @@
   {
     "id": "d093f487869e",
     "lat": 34.01198,
-    "lon": 118.49632,
+    "lon": -118.49632,
     "capturedAt": null,
     "thumb": "assets/thumbs/d0/d093f487869e.webp",
     "thumbWidth": 200,
     "thumbHeight": 150,
     "photo": "assets/photos/d0/d093f487869e.jpg",
-    "locationId": "34.01198,118.49632",
+    "locationId": "34.01198,-118.49632",
     "order": 0
   }
 ]

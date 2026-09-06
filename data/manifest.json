@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T23:39:17Z",
+  "generatedAt": "2026-09-06T23:44:29Z",
   "totalRecords": 1,
   "lazyLoadThreshold": 500,
   "loadMode": "all",
   "partitionZoom": 6,
   "viewportMarginRatio": 0.5,
   "availableTiles": [
-    "6/53/25"
+    "6/10/25"
   ],
   "bounds": {
     "minLat": 34.01198,
-    "minLon": 118.49632,
+    "minLon": -118.49632,
     "maxLat": 34.01198,
-    "maxLon": 118.49632
+    "maxLon": -118.49632
   },
   "coordinatePrecision": null,
   "map": {
