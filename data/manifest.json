@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-06T20:15:57Z",
+  "totalRecords": 10,
+  "lazyLoadThreshold": 500,
+  "loadMode": "all",
+  "partitionZoom": 6,
+  "viewportMarginRatio": 0.5,
+  "availableTiles": [
+    "6/18/24",
+    "6/19/34",
+    "6/24/36",
+    "6/28/17",
+    "6/32/22",
+    "6/35/38",
+    "6/37/26",
+    "6/45/26",
+    "6/56/25",
+    "6/58/38"
+  ],
+  "bounds": {
+    "minLat": -33.9249,
+    "minLon": -73.9857,
+    "maxLat": 64.1466,
+    "maxLon": 151.21529999999998
+  },
+  "coordinatePrecision": null,
+  "map": {
+    "tileUrlTemplate": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    "tileAttribution": "© OpenStreetMap contributors",
+    "tileTreatment": "invert",
+    "defaultCenter": {
+      "lat": 20,
+      "lon": 0
+    },
+    "defaultZoom": 2,
+    "minZoom": 2,
+    "maxZoom": 19
+  },
+  "clustering": {
+    "radiusPx": 60
+  },
+  "markers": {
+    "shape": "circle"
+  },
+  "paths": {
+    "thumbs": "assets/thumbs",
+    "photos": "assets/photos",
+    "records": "data/records"
+  }
+}

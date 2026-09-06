@@ -1,0 +1,44 @@
+Photo map — privacy notice
+==========================
+
+Publishing this directory, for example to GitHub Pages, makes every file in it
+readable by anyone who knows or guesses its URL. There is no login, no access
+control, and no way to retract a file that someone has already downloaded.
+
+What becomes public
+-------------------
+* Full-resolution copies of every photo this build published (10 photos
+  in total), copied byte for byte from your originals. Everything their EXIF
+  metadata carries — camera, lens, GPS coordinates, timestamps — is published
+  along with the image.
+* Thumbnails generated from those photos, carrying no EXIF metadata at all: the
+  Thumbnail_Generator copies none of it through, so no camera, lens, GPS, or
+  timestamp tag survives into a thumbnail.
+* Data files listing every published photo's coordinates and capture time as
+  plain JSON. Anyone can download the whole set in a few requests and read it
+  as a table; no interaction with the map is needed.
+
+Coordinate precision
+--------------------
+Coordinates are published exactly as they were recorded, at full precision. A photo
+taken at home therefore publishes your home's location to within a few metres. To
+reduce that, set "privacy": { "coordinatePrecision": 0-6 } in the build config and
+rebuild; coordinates are then rounded before they are written to any file.
+
+Photos withheld
+---------------
+No photos were excluded by the location registry. To keep a photo out of the build
+entirely — no image copy, no thumbnail, no coordinates — give it an "exclude": true
+entry in the registry and rebuild.
+
+Map tiles
+---------
+The map's background tiles are requested by each viewer's own browser, directly
+from tile.openstreetmap.org.
+That provider therefore sees every viewer's IP address and the areas and zoom
+levels they look at. It does not receive your photos or their coordinates.
+
+Not published here
+------------------
+Build reports list the original paths of files on your own machine, so they are
+written outside this directory and are not part of the published site.

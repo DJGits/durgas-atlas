@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Req 10.1: the layout is responsive, so the viewport is the device's, unscaled.
+         Zoom is left enabled; pinching the page is not the map's pinch-to-zoom (Req 10.2),
+         but taking it away would make text unreadable for anyone who needs to magnify it. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="An interactive world map of a personal photo collection." />
+    <title>Photo Map</title>
+    <script type="module" crossorigin src="/durgas-atlas/assets/index-CsMvHaYm.js"></script>
+    <link rel="stylesheet" crossorigin href="/durgas-atlas/assets/index-3Otd1VSX.css">
+  </head>
+  <body>
+    <!-- Mounted by src/client/main.ts. Left empty so the map, the Photo_Viewer, and the
+         manifest-failure error state are all rendered by the client (Req 1.4). -->
+    <div id="app"></div>
+    <noscript>
+      This photo map is rendered in the browser, so it needs JavaScript enabled to display
+      the map and its photos.
+    </noscript>
+    <!-- Vite rewrites this reference against the configured base path, so the bundle loads
+         from a GitHub Pages project subpath as well as from the site root (Req 1.2). -->
+  </body>
+</html>
