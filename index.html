@@ -7,9 +7,14 @@
          but taking it away would make text unreadable for anyone who needs to magnify it. -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="An interactive world map of a personal photo collection." />
+    <!-- A neutral fallback, replaced by src/client/main.ts from `manifest.site.title` once the
+         manifest has loaded. It cannot be the configured title: this file is authored and
+         bundled before any build knows what the config file says, and this is what the tab
+         shows while the manifest is still in flight — so it must not hardcode a person's
+         name. -->
     <title>Photo Map</title>
-    <script type="module" crossorigin src="/durgas-atlas/assets/index-CsMvHaYm.js"></script>
-    <link rel="stylesheet" crossorigin href="/durgas-atlas/assets/index-3Otd1VSX.css">
+    <script type="module" crossorigin src="/durgas-atlas/assets/index-GvC3jq4d.js"></script>
+    <link rel="stylesheet" crossorigin href="/durgas-atlas/assets/index-le5ETeqQ.css">
   </head>
   <body>
     <!-- Mounted by src/client/main.ts. Left empty so the map, the Photo_Viewer, and the
