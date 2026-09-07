@@ -10,5 +10,17 @@
     "photo": "assets/photos/d0/d093f487869e.jpg",
     "locationId": "34.01198,-118.49632",
     "order": 0
+  },
+  {
+    "id": "52967074d008",
+    "lat": 34.12549,
+    "lon": -118.326,
+    "capturedAt": "2023-06-07T16:13:59",
+    "thumb": "assets/thumbs/52/52967074d008.webp",
+    "thumbWidth": 200,
+    "thumbHeight": 80,
+    "photo": "assets/photos/52/52967074d008.jpg",
+    "locationId": "34.12549,-118.326",
+    "order": 1
   }
 ]

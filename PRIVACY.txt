@@ -7,7 +7,7 @@ control, and no way to retract a file that someone has already downloaded.
 
 What becomes public
 -------------------
-* Full-resolution copies of every photo this build published (1 photo
+* Full-resolution copies of every photo this build published (2 photos
   in total), copied byte for byte from your originals. Everything their EXIF
   metadata carries — camera, lens, GPS coordinates, timestamps — is published
   along with the image.
