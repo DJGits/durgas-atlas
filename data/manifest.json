@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T02:34:52Z",
+  "generatedAt": "2026-09-08T16:30:14Z",
   "totalRecords": 2,
   "lazyLoadThreshold": 500,
   "loadMode": "all",
@@ -35,22 +35,17 @@
     "shape": "circle"
   },
   "site": {
-    "title": "Durga's Atlas",
+    "title": "Durgas Atlas",
     "links": [
       {
         "label": "LinkedIn",
-        "url": "https://www.linkedin.com/in/PLACEHOLDER",
+        "url": "https://www.linkedin.com/in/jay-durga",
         "icon": "linkedin"
       },
       {
         "label": "GitHub",
-        "url": "https://github.com/PLACEHOLDER",
+        "url": "https://github.com/DJGits",
         "icon": "github"
-      },
-      {
-        "label": "Credly",
-        "url": "https://www.credly.com/users/PLACEHOLDER",
-        "icon": "credly"
       }
     ]
   },
